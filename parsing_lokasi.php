@@ -17,6 +17,7 @@
   include('lib/ganon.php');
   include('lib/simple_html_dom.php');
   
+  //ganti komen
   $url="http://mfdonline.bps.go.id/index.php?link=rekap_wil_desa";
   $html = file_get_dom($url);
   $entry=$html('div.entry', 0);
